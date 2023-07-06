@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.Navbar{
+    background-color: rgb(87, 84, 84);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 30px;
+    
+
+}
+
+#logo-photo{
+    width: 116px;
+    height: 19px;
+   
+}
+#logo{
+    padding: 10px;
+    align-items: center;
+}
+#Menus{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.list{
+    padding-right: 7px;
+    margin-right: 10px;
+    font-size: 18px;
+
+   
+
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    /* border: 20px solid yellow; */
+    color: white;
+    background-image: url("background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#banner-photo{
+    width: 300px;
+    height: 300px;
+}
+
+#title{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    
+}
+
+#About_pic{
+    height: 250px;
+    width:250px;
+}
+
+#about_heading{
+
+    padding: 20px;
+    text-align: center;
+    font-size: 55px;
+}
+.about_us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    /* border: 20px solid yellow; */
+    flex-direction: row-reverse;
+    
+
+
+}
+
+#Service_Heading{
+
+    padding: 50px;
+    margin-top: 50PX;
+    text-align: center;
+    font-size: 55px;
+    color:rgb(252, 246, 246)
+}
+
+.Service{
+
+   
+    background-image: url("background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    /* background-color: black; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+}
+.Service_box{
+
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+}
+.box{
+    border:0.5px;
+    background-color: black;
+    width: 230px;
+    height: 320px;
+    text-align: center;
+   margin-bottom: 30px;
+    /* margin-left: 70px; */
+   
+}
+.box_head{
+
+    padding: 10px;
+}
+.box_text{
+
+    padding: 5px;
+  
+}
+.box_icon{
+
+    height:80px;
+    width: 80px;
+    padding: 10px;
+}
+.box_btn{
+
+    background-color: gray;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+}
